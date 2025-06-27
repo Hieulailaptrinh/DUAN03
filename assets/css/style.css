@@ -10,3 +10,117 @@ html{
   font-size: 1.6rem;
     font-family: "Sora", sans-serif;
 }
+
+
+/* ==========================Common============================= */
+
+/* .main-content{
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: calc(100% - 24px);
+} */
+
+a{
+  text-decoration: none;
+}
+
+:root{
+  --Header-bg: #10375C;
+}
+
+.header{
+  background-color: var(--Header-bg);
+  min-height: 100vh;
+  padding: 30px 0 0 0;
+}
+.btn{
+  display: flex;
+  width: 104px;
+  height: 44px;
+  border-radius: 22px;
+background: #2E80CE;
+align-items: center;
+justify-content: center;
+}
+
+/* ===============================Header==================================== */
+
+.header__body{
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 48px);
+}
+
+.navbar a{
+  color: #C9D2DA;
+font-family: Sora;
+font-size: 1.6rem;
+font-weight: 300;
+line-height: 1.75; 
+
+}
+
+.btn-signIn a{
+  color: #C9D2DA;
+font-family: Sora;
+font-size: 1.6rem;
+font-weight: 300;
+line-height: 1.75; 
+}
+
+.btn-header{
+  margin-left: 28px;
+}
+
+.btn.btn-header a{
+  color: #FFF;
+font-family: Sora;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 1.75; 
+}
+
+.nav{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.nav ul{
+   display: flex;
+    gap: 42px;
+}
+
+.nut div{
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.navbar.active a{
+  position: relative;
+}
+
+.navbar.active a::after{
+  display: block;
+  content: "";
+  width: 6px;
+height: 6px;
+border-radius: 50%;
+background: #FFF;
+position: absolute;
+left: -14px;
+top: 7px;
+}
+
+@media (max-width: 768px){
+  .nav ul{
+    gap: 8px;
+  }
+}
