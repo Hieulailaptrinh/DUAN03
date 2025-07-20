@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding: 20px;
+  padding-left: 850px;
+  padding-top: 100px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+input#password,
+input#Email {
+  width: 240px;
+  height: 34px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.login-button {
+  display: block;
+  height: 500px;
+  width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input#Email {
+  margin-bottom: 20px;
+}
+
+input#password {
+  margin-bottom: 20px;
+}
+
+.confirm {
+  width: 100px;
+  height: 37px;
+  color: #fff;
+  background-color: rgb(240, 81, 35);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.confirm:hover {
+  opacity: 0.9;
+}
+
+/* .check {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.check label::before {
+  display: block;
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  border: 1px solid rgb(225, 38, 38);
+  margin-left: -24px;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+
+#remember {
+  margin-right: 20px;
+}
+
+#remember:checked + label::before {
+  background: red;
+}
+
+#remember:checked + label::after {
+  display: block;
+  content: "";
+  width: 7px;
+  height: 4px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  rotate: -45deg;
+}
+
+label::after {
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.remem {
+  margin-left: 24px;
+  user-select: none;
+} */
+
+/* ==============================Làm lại nút===================================== */
+
+.remem {
+  user-select: none;
+}
+
+.remem::after,
+.remem::before {
+  display: inline-block;
+  content: "";
+  position: relative;
+}
+
+.remem::before {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 1px solid rgb(218, 39, 39);
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#remember:checked + .remem::before {
+  background-color: rgb(218, 39, 39);
+}
+
+#remember:checked + .remem::after {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  border-left: 3px solid #000;
+  border-bottom: 4px solid #000;
+  margin-top: 3px;
+  margin-left: -106px;
+  rotate: -45deg;
+}

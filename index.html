@@ -1,60 +1,607 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- add favicon -->
-   <link rel="apple-touch-icon" sizes="57x57" href="./assets/css/Favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./assets/css/Favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./assets/css/Favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./assets/css/Favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./assets/css/Favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./assets/css/Favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./assets/css/Favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./assets/css/Favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/css/Favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./assets/css/Favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/css/Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./assets/css/Favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/css/Favicon/favicon-16x16.png">
-<link rel="manifest" href="./assets/css/Favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="./assets/css/Favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-<!--  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- add favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/css/Favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/css/Favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/css/Favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/css/Favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/css/Favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/css/Favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/css/Favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/css/Favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/css/Favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/css/Favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/css/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/css/Favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/css/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/css/Favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/css/Favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- reponnsive -->
+    <link rel="stylesheet" href="./assets/css/reponsive.css" />
 
-  <!--  -->
-  <title>Shine Smile</title>
-</head>
-<body style="height: 10000px;">
-  <header class="header fix">
-    <div class="main-content">
-      <div class="header__body">
-          <img src="./assets/css/img/Logo (1).png" alt="Logo">
-          <!--  -->
-          <nav class="nav">
-            <ul>
-              <li class="navbar active"><a href="#!">Home</a></li>
-              <li class="navbar"><a href="#!">Services</a></li>
-              <li class="navbar"><a href="#!">About</a></li>
-              <li class="navbar"><a href="#!">Doctors</a></li>
-            </ul>
-          </nav>
-          <!--  -->
-          <div class="nut">
-            <div class="btn-signIn"><a href="#!">Log In </a>
-            <div class="btn btn-header"><a href="#!">Sign Up</a>
+    <!--  -->
+    <title>Shine Smile</title>
+  </head>
+  <body style="height: 10000px">
+    <!-- <script src="./Java/main.js"></script> -->
+    <header class="header fix">
+      <div class="main-content">
+        <div class="Body">
+          <div class="header__body">
+            <img
+              src="./assets/css/img/icon/Logo (1).png"
+              alt="Logo"
+              class="Logo_web"
+            />
+            <!--  -->
+            <nav class="nav">
+              <ul>
+                <li class="navbar active"><a href="#!">Home</a></li>
+                <li class="navbar"><a href="#!">Services</a></li>
+                <li class="navbar"><a href="#!">About</a></li>
+                <li class="navbar"><a href="#!">Doctors</a></li>
+              </ul>
+            </nav>
+            <!--  -->
+            <div class="nut">
+              <div class="btn-signIn">
+                <a href="./assets/css/Ôn tập/index.html" target="_blank"
+                  >Log In
+                </a>
+              </div>
+              <div class="btn btn-header">
+                <a href="./assets/css/Ôn tập/index.html" target="_blank"
+                  >Sign Up</a
+                >
+              </div>
+            </div>
+            <!--  -->
           </div>
-        <!--  -->
+          <!--  -->
+          <div class="header-foot">
+            <!--  -->
+            <div class="header-foot--one">
+              <h1 class="header-foot-oneh1">
+                Exceptional dental care for all ages.
+              </h1>
+              <p class="header-foot-onep">
+                Exceptional dental care for all ages. Your great smile begins
+                with a great dentist.
+              </p>
+              <div class="header-foot--oneInfor">
+                <div class="btn btn--book"><a href="#!">Book Online</a></div>
+                <p class="header-foot--onep2">or call (123) 456-7890</p>
+              </div>
+              <!--  -->
+            </div>
+            <!--  -->
+            <div class="header-foot--two">
+              <img
+                src="./assets/css/img/pic/THuong1.jpg"
+                alt=""
+                class="header-foot--two img1"
+              />
+              <img
+                src="./assets/css/img/pic/Thuong2.jpg"
+                alt=""
+                class="header-foot--two img2"
+              />
+            </div>
+            <!--  -->
+          </div>
+        </div>
       </div>
+    </header>
+    <!--  -->
+    <main class="main fix">
+      <!--  -->
+      <div class="main-1">
+        <div class="main-content">
+          <!--  -->
+          <div class="body">
+            <!--  -->
+            <div class="main_top">
+              <h2 class="main_top--title">Our services</h2>
+              <p class="main_top--caption">
+                Exceptional dental care for all ages. Your great smile begins
+                with a great dentist.
+              </p>
+            </div>
+            <!--  -->
+            <div class="main_footer">
+              <div class="main_footer-left">
+                <img
+                  src="./assets/css/img/pic/Thuong4.jpg"
+                  alt=""
+                  class="main_footer-left-img"
+                />
+              </div>
+              <div class="main_footer-right">
+                <div class="main_footer-right--top">
+                  <!--  -->
+                  <div class="main_footer-right--tooth">
+                    <div class="img_box">
+                      <img src="./assets/css/img/icon/tooth.png" alt="Tooth" />
+                    </div>
+                    <div class="main_footer-right--tooth_right">
+                      <h3>Oral Surgery</h3>
+                      <p>
+                        Everything you expect and then some. Cleanings,
+                        fillings, and x-rays.
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="main_footer-right--tooth">
+                    <div class="img_box">
+                      <img src="./assets/css/img/icon/tooth.png" alt="Tooth" />
+                    </div>
+                    <div class="main_footer-right--tooth_right">
+                      <h3>Wisdom Teeth Removaly</h3>
+                      <p>
+                        Everything you expect and then some. Cleanings,
+                        fillings, and x-rays.
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="main_footer-right--tooth">
+                    <div class="img_box">
+                      <img src="./assets/css/img/icon/tooth.png" alt="Tooth" />
+                    </div>
+                    <div class="main_footer-right--tooth_right">
+                      <h3>Preventative Dentistry</h3>
+                      <p>
+                        Everything you expect and then some. Cleanings,
+                        fillings, and x-rays.
+                      </p>
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+                <!--  -->
+                <div class="main_footer-right--botton">
+                  <div class="btn btn--Services">
+                    <a href="#!">All Services</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
 
-    </div>
-  </header>
-</body>
+          <!--  -->
+        </div>
+      </div>
+      <!--  -->
+      <div class="main-2">
+        <div class="works">
+          <h2 class="works-tille--h2">How it works</h2>
+          <p class="works-title--p">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+          <div class="works-total--works">
+            <!--  -->
+            <div class="works-total--worksPlace 1">
+              <img
+                src="./assets/css/img/pic/search.png"
+                alt=""
+                class="works-total--worksPlace_img"
+              />
+              <h3 class="works-total--worksPlace_h3">Search doctor</h3>
+              <p class="works-total--worksPlace_p">
+                Search a doctor by education, qualifications or
+                experience-contact for inquiry.
+              </p>
+              <a href="#!" class="works-total--worksPlace_more">Learn More</a>
+            </div>
+            <!--  -->
+            <div class="works-total--worksPlace 2">
+              <img
+                src="./assets/css/img/pic/user.png"
+                alt=""
+                class="works-total--worksPlace_img"
+              />
+              <h3 class="works-total--worksPlace_h3">Search doctor</h3>
+              <p class="works-total--worksPlace_p">
+                Search a doctor by education, qualifications or
+                experience-contact for inquiry.
+              </p>
+              <a href="#!" class="works-total--worksPlace_more">Learn More</a>
+            </div>
+            <!--  -->
+            <div class="works-total--worksPlace 3">
+              <img
+                src="./assets/css/img/pic/help.png"
+                alt=""
+                class="works-total--worksPlace_img"
+              />
+              <h3 class="works-total--worksPlace_h3">Search doctor</h3>
+              <p class="works-total--worksPlace_p">
+                Search a doctor by education, qualifications or
+                experience-contact for inquiry.
+              </p>
+              <a href="#!" class="works-total--worksPlace_more">Learn More</a>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="main-3">
+        <div class="main-content">
+          <div class="body-main3">
+            <!--  -->
+            <div class="main-3--top">
+              <div class="main3-left">
+                <img
+                  src="./assets/css/img/pic/Thuong_cuti.jpg"
+                  alt=""
+                  class="main3-left--img1"
+                />
+                <img
+                  src="./assets/css/img/pic/Thuonghello.jpg"
+                  alt=""
+                  class="main3-left--img2"
+                />
+              </div>
+              <!--  -->
+              <div class="main3-right">
+                <h1 class="main3-right--h1">
+                  Take back your smile with shine.
+                </h1>
+                <p class="main3-right--p">
+                  If you’re missing multiple teeth due to decay, injury, or the
+                  natural aging process, dentures might be the perfect solution.
+                </p>
+                <a href="#!" class="btn btnmore">Learn More</a>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="main-3--bottom">
+              <div class="main-3--bottom_top">
+                <h1 class="main-3--bottom_h1">Our virtual dentist</h1>
+                <a href="#!" class="btn btn--meet">Meet our dentist</a>
+              </div>
+              <!--  -->
+              <div class="main-3--bottom_bottom">
+                <div class="main-3--bottom_doctor1">
+                  <img
+                    src="./assets/css/img/pic/IMG_2294.PNG"
+                    alt=""
+                    class="doctor"
+                  />
+                  <h3 class="main-3--doctor_h3">Dr. Trung Hiếu</h3>
+                  <p class="main-3--doctor_p">DDS, ThaiNguyen - VietNam</p>
+                </div>
+                <!--  -->
+                <div class="main-3--bottom_doctor1">
+                  <img
+                    src="./assets/css/img/pic/IMG_3620.PNG"
+                    alt=""
+                    class="doctor"
+                  />
+                  <h3 class="main-3--doctor_h3">Dr. Trung Hiếu</h3>
+                  <p class="main-3--doctor_p">DDS, ThaiNguyen - VietNam</p>
+                </div>
+                <!--  -->
+                <div class="main-3--bottom_doctor1">
+                  <img
+                    src="./assets/css/img/pic/IMG_6845.JPG"
+                    alt=""
+                    class="doctor"
+                  />
+                  <h3 class="main-3--doctor_h3">Dr. Trung Hiếu</h3>
+                  <p class="main-3--doctor_p">DDS, ThaiNguyen - VietNam</p>
+                </div>
+                <!--  -->
+                <div class="main-3--bottom_doctor1">
+                  <img
+                    src="./assets/css/img/pic/hieu.JPG"
+                    alt=""
+                    class="doctor"
+                  />
+                  <h3 class="main-3--doctor_h3">Dr. Trung Hiếu</h3>
+                  <p class="main-3--doctor_p">DDS, ThaiNguyen - VietNam</p>
+                </div>
+                <!--  -->
+              </div>
+              <div class="body-main5--button button-doctor">
+                <button class="button button-return">
+                  <img
+                    src="./assets/css/img/icon/return.png"
+                    alt=""
+                    class="body-main5--img1"
+                  />
+                </button>
+                <button class="button button-next">
+                  <img
+                    src="./assets/css/img/icon/next.png"
+                    alt=""
+                    class="body-main5--img2"
+                  />
+                </button>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="main-4">
+        <div class="main-content">
+          <div class="body-main4">
+            <div class="body-main4--left">
+              <img
+                src="./assets/css/img/icon/phone.png"
+                alt=""
+                class="body-main4--left_img"
+              />
+            </div>
+            <!--  -->
+            <div class="body-main4--right">
+              <div class="body-main4--right_top">
+                <h1 class="body-main4--right_h1">
+                  Take back your smile with dentures
+                </h1>
+                <p class="body-main4--right_p">
+                  If you’re missing multiple teeth due to decay, injury, or the
+                  natural aging process, dentures might be the perfect solution.
+                </p>
+              </div>
+              <!--  -->
+              <div class="body-main4--right_bottom">
+                <img
+                  src="./assets/css/img/icon/Google Play outline badge.png"
+                  alt=""
+                  class="body-main4--right_img1"
+                />
+                <img
+                  src="./assets/css/img/icon/App Store outline badge.png"
+                  alt=""
+                  class="body-main4--right_img1"
+                />
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="main-5">
+        <div class="main-content">
+          <div class="body-main5">
+            <!--  -->
+            <div class="body-main5-left">
+              <h1 class="body-main5-left--h1">Read Latest News & Events.</h1>
+              <a href="#!" class="body-main5-left--a">Read All Blog</a>
+              <div class="body-main5--button">
+                <button class="button button-return">
+                  <img
+                    src="./assets/css/img/icon/return.png"
+                    alt=""
+                    class="body-main5--img1"
+                  />
+                </button>
+                <button class="button button-next">
+                  <img
+                    src="./assets/css/img/icon/next.png"
+                    alt=""
+                    class="body-main5--img2"
+                  />
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="body-main5--right">
+              <div class="body-main5--right_medicine1">
+                <img
+                  src="./assets/css/img/pic/thuoc1.png"
+                  alt=""
+                  class="body-main5--right_medicine"
+                />
+                <h3 class="body-main5--right_h3">
+                  Key Considerations for Regulatory Compliant.
+                </h3>
+                <p class="body-main5--right_p">
+                  It’s easy to think about medical care from a narrow
+                  perspective. You go to the hospital.
+                </p>
+                <a href="#!" class="body-main5--right_a">Learn More</a>
+              </div>
+              <!--  -->
+              <div class="body-main5--right_medicine1">
+                <img
+                  src="./assets/css/img/pic/thuoc2.png"
+                  alt=""
+                  class="body-main5--right_medicine"
+                />
+                <h3 class="body-main5--right_h3">
+                  Key Considerations for Regulatory Compliant.
+                </h3>
+                <p class="body-main5--right_p">
+                  It’s easy to think about medical care from a narrow
+                  perspective. You go to the hospital.
+                </p>
+                <a href="#!" class="body-main5--right_a">Learn More</a>
+              </div>
+              <!--  -->
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="welcoming">
+            <div class="welcoming-h1">Always welcoming new patients</div>
+            <div class="welcoming-p">
+              Take control of your dental health and get the personalized care
+              you deserve. Call (541) 772-8846 to schedule
+            </div>
+            <a href="#!" class="btn btn-appointment">Appointment</a>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer fix">
+      <div class="main-content">
+        <div class="body-footer">
+          <div class="footer-top">
+            <!--  -->
+            <div class="footer-top--part1">
+              <a href="#!"
+                ><img
+                  src="./assets/css/img/icon/logo-real.png"
+                  alt=""
+                  class="footer-top--part1_img"
+              /></a>
+              <p class="footer-top--part1_p">
+                Exceptional dental care for all ages. Your great smile begins
+                with a great dentist.
+              </p>
+            </div>
+            <!--  -->
+            <div class="footer-top--part2">
+              <h2 class="footer-top--part_h2 1">Support</h2>
+              <a href="#!" class="footer-top--part 2">Help center</a
+              ><a href="#!" class="footer-top--part three"
+                >Account information</a
+              ><a href="#!" class="footer-top--part 4">About</a
+              ><a href="#!" class="footer-top--part five">Contact us</a>
+              <h2 class="footer-top--part_h2 1">Support</h2>
+              <a href="#!" class="footer-top--part 7">Help center</a
+              ><a href="#!" class="footer-top--part three"
+                >Account information</a
+              >
+            </div>
+            <!--  -->
+            <div class="footer-top--part3">
+              <h2 class="footer-top--part_h2 1">Support</h2>
+              <a href="#!" class="footer-top--part 2">Help center</a
+              ><a href="#!" class="footer-top--part three"
+                >Account information</a
+              >
+              <h2 class="footer-top--part_h2 1">Support</h2>
+              <a href="#!" class="footer-top--part 7">Help center</a>
+            </div>
+            <!--  -->
+            <div class="footer-top--part4">
+              <h2 class="footer-top--part_h2 1">Stay In Touch</h2>
+              <div class="app">
+                <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#!"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#!"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <h2 class="footer-top--part_h2">Support</h2>
+              <p class="footer-top--part1_p">
+                Subscribe our newsletter for the latest update of Dental care
+              </p>
+              <form action="#!">
+                <input
+                  type="email"
+                  name="EmailUser"
+                  id="Email"
+                  placeholder="Enter your email..."
+                  required
+                />
+                <input type="submit" value="Subscribe" class="submit" />
+              </form>
+              <!--  -->
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="footer-bottom">
+            <p class="footer-top--part title">
+              2021 GDN. Copyright and All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

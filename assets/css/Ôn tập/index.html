@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <h1>Login</h1>
+      <form action="">
+        <!--  -->
+
+        <div class="email">
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="Email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="pass">
+          <label for="Password">Password</label>
+          <input
+            type="password"
+            name="Password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <!-- <div class="check">
+          <input type="checkbox" name="checkbox" id="remember" />
+          <label for="remember">Remember</label>
+        </div> -->
+        <div class="check">
+          <input type="checkbox" id="remember" hidden />
+          <label for="remember" class="remem">Remember</label>
+        </div>
+        <br />
+        <input type="submit" value="Confirm " class="confirm" />
+      </form>
+    </main>
+  </body>
+</html>
